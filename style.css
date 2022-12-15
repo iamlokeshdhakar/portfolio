@@ -94,7 +94,6 @@ ul {
 }
 
 
-
 /* Items Style */
 
 /* Navbaar */
@@ -127,6 +126,13 @@ ul {
     font-weight: 900;
     font-size: 1.5rem;
 }
+.responsive-navbar{
+    display: none;
+}
+.res-nav{
+  display: none;
+}
+
 
 
 /* Main Section */

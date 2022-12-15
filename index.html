@@ -25,9 +25,21 @@
                     <li><a class="secondary-btn" href="https://github.com/lokeshdhakar97" target="_blank"> <i class="fa-brands fa-github btn-icon"></i> GitHub</a></li>
                 </ul>
             </div>
-            <a class="menu-responsive" href="">
-                <i class="fa-solid fa-bars"></i>
-            </a>
+            <i  id="open-navbar" class="fa-solid fa-bars menu-responsive"></i>
+            
+            <div class="responsive-navbar">
+                <div class="res-nav nav-items">
+                    <i id="cross-nav" class="fa-sharp fa-solid fa-xmark"></i>
+                    <ul>
+                        <li><a class="hover" href="#skill-section-show">Skills</a></li>
+                        <li><a class="hover" href="#project-section-show">Projects</a></li>
+                        <li><a class="hover" href="#education-section-show">Education</a></li>
+                        <li><a class="secondary-btn" href="https://github.com/lokeshdhakar97" target="_blank"> <i class="fa-brands fa-github btn-icon"></i> GitHub</a></li>
+                        <li><a class="primary-btn " href="https://wa.link/7qavf7" download target="_blank">Say Hello 👋🏻</a></li>
+                        <li><a class="primary-btn " href="./assests/Lokesh-updated.pdf" download target="_blank">Download CV</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
     <!-- Main Section -->
@@ -338,6 +350,17 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/6d248672b6.js" crossorigin="anonymous"></script>
+    <script>
+        let openNav = document.querySelector('#open-navbar');
+        let closeNav = document.querySelector('#cross-nav');
+        let responsiveNav = document.querySelector('.responsive-navbar');
+        openNav.addEventListener('click', ()=>{
+            responsiveNav.style.right = "0%" 
+        })
+        closeNav.addEventListener('click', ()=>{
+            responsiveNav.style.right = "-100%" 
+        })
+    </script>
 </body>
 
 </html>
