@@ -12,6 +12,7 @@
     --secondary-text-color: white;
     --third-text-color: whitesmoke;
     --hover-text-color: #6E07F3;
+    --button-hover-color: #6E07F3
 }
 
 * {
@@ -19,6 +20,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: PS;
+    font-weight: 500;
 }
 
 html,
@@ -27,6 +29,25 @@ body {
     height: 100%;
     background: var(--primary-bgc-linear);
 }
+
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    width: 100%;
+    background-color: var(--primary-bgc-linear);
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 50px;
+    background-color: var(--secondary-bgc-blue);
+}
+
+
+/* Default Style */
 
 a {
     text-decoration: none;
@@ -39,34 +60,43 @@ ul {
     list-style: none;
 }
 
-.primary-btn{
+.primary-btn {
     background-color: var(--secondary-bgc-blue);
-    color: white !important; 
+    color: white !important;
     padding: 8px 20px;
     border: 2px solid #6E07F3;
     border-radius: 10px;
 }
-.secondary-btn{
+
+.secondary-btn {
     padding: 8px 20px;
     border: 2px solid #6E07F3;
     color: var(--hover-text-color);
     border-radius: 10px;
     font-size: 1rem;
 }
-.secondary-btn:hover{
-    background-color: var(--secondary-bgc-blue);    
+
+.secondary-btn:hover {
+    background-color: var(--secondary-bgc-blue);
     color: white !important;
 }
 
-.btn-icon{
+.btn-icon {
     margin-right: 8px;
 }
+
 .container {
+    overflow: hidden;
     max-width: 1180px;
     margin-inline: auto;
     padding: 20px 40px;
 }
 
+
+
+/* Items Style */
+
+/* Navbaar */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -91,29 +121,171 @@ ul {
     font-weight: 900;
     font-size: 1.5rem;
 }
-.text-container{
-    margin-top: 7rem;
+
+
+/* Main Section */
+
+.main-container {
+    overflow: hidden;
+}
+
+.text-container {
+    margin-top: 5rem;
     max-width: 80vw;
     margin-inline: auto;
     text-align: center;
 }
-.text-container h1{
+
+.text-container h1 {
     font-size: 3rem;
     font-family: Dosis;
     font-weight: 900;
 }
-.text-container h2{
-    font-weight: 500;   
+
+.text-container h2 {
+    font-weight: 500;
     margin-top: .3rem;
 }
-.image-container{
+
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-inline: auto;
 }
-.image-container img{
+
+.image-container img {
     width: 18rem;
     border-radius: 50%;
 }
+
+.main-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.say-hello-btn {
+    margin-right: 20px;
+}
+
+.media-tag {
+    padding: 8px;
+    font-size: 1.3rem;
+}
+
+.media-tag:hover {
+    color: var(--hover-text-color) !important;
+}
+
+hr {
+    width: 8vw;
+    height: 3px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+}
+
+/* About Me Section */
+
+.about-me-text {
+    margin-inline: auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.about-me-text h2 {
+    margin: 10px;
+    font-family: Dosis;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.about-me-text p {
+    line-height: 1.2rem;
+}
+
+.about-me-container {
+    margin-top: 1rem;
+    padding: 20px;
+}
+
+/* Skill Section */
+
+.skill-container {
+    padding: 8rem 0px;
+    max-width: 100%;
+    margin-top: 8rem;
+    background-color: var(--secondary-bgc-blue);
+    color: var(--secondary-text-color);
+}
+
+.skill-cnt-box {
+    margin-inline: auto;
+}
+.skill-text{
+    max-width: 80%;
+    margin-inline: auto;
+}
+
+.skill-text h2 {
+    font-weight: 900;
+}
+
+.skill-text p {
+    margin-top: 1rem;
+    color: var(--third-text-color);
+}
+.card-skill {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin-inline: auto ;
+}
+
+.skills-card {
+    display: flex;
+    width: 200px;
+    margin: 5px;
+    height: 70px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background: var(--primary-bgc-linear);
+}
+
+.logo-skill {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    padding-right: 5px;
+}
+
+.logo-skill svg {
+    width: 50%;
+}
+
+.logo-skill img {
+    width: 40%;
+}
+
+.text-skill {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5px;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.text-skill h4{
+    color: var(--primary-text-color);
+    font-weight: 700;
+}
+

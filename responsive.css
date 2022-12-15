@@ -1,0 +1,39 @@
+
+@media screen and (max-width: 425px) {
+    .main-media-links {
+        /* padding: 10px 0px; */
+        flex-direction: column;
+    }
+
+    .social-links {
+        padding: 15px;
+    }
+
+    .say-hello-btn {
+        margin-right: 0px;
+        font-size: 1.2rem;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .media-tag {
+        font-size: 1.8rem;
+    }
+    .about-me-text{
+        max-width: 85%;
+    }
+    .card-skill{
+        max-width: 100%;
+    }
+    .skills-card{
+        width: 180px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-me-text{
+        max-width: 70%;
+    }
+}
