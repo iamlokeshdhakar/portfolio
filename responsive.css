@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
     .main-media-links {
         /* padding: 10px 0px; */
         flex-direction: column;
@@ -32,8 +32,26 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 770px) {
     .about-me-text{
         max-width: 70%;
+    }
+    .menu-responsive {
+        display: initial;
+        font-size: 1.5rem;
+    }
+    .nav-items{
+        display: none;
+    }
+    
+    .project-img, .project-cnt{
+     width: 100%;   
+    }
+    .projects-div{
+        max-width: 95%;
+    }
+    .tech{
+        width: 20px;
+        height: 20px;
     }
 }
