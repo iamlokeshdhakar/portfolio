@@ -54,4 +54,17 @@
         width: 20px;
         height: 20px;
     }
+    .collab-div{
+        margin-top: -90px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    .collab{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .footer-container{
+        min-height: 50vh;
+    }
 }
