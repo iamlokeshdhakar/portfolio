@@ -206,7 +206,7 @@ hr {
     margin: 10px;
     font-family: Dosis;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .about-me-text p {
@@ -238,7 +238,8 @@ hr {
 }
 
 .skill-text h2 {
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 2rem;
 }
 
 .skill-text p {
@@ -311,6 +312,7 @@ hr {
 
 .project-head h2 {
     font-weight: 700;
+    font-size: 2rem;
 }
 
 .project-head p {
@@ -423,12 +425,11 @@ hr {
     justify-content: center;
     align-items: center;
     width: 95%;
-    margin-top: -54px;
+    margin-top: -62px;
     border-radius: 10px;
     background-color: rgb(39, 38, 38);
     color: var(--secondary-text-color);
     margin-inline: auto;
-
 }
 
 .collab {
@@ -492,6 +493,10 @@ hr {
     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
     margin: 5px;
 }
+.icon-i i{
+    color: rgb(37, 37, 37);
+}
+
 
 .icon-i i:hover {
     color: var(--secondary-bgc-blue);
@@ -510,4 +515,12 @@ hr {
     text-align: center;
     margin-top: 2rem;
     color: var(--third-text-color);
+}
+
+#mail-show{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+    color: yellow; 
 }

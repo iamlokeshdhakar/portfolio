@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 770px) {
     .about-me-text{
-        max-width: 70%;
+        max-width: 85%;
     }
     .menu-responsive {
         display: initial;
