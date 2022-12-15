@@ -117,4 +117,7 @@
     #cross-nav:hover {
         color: var(--secondary-bgc-color);
     }
+    .education{
+        width: 90%;
+    }
 }

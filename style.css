@@ -409,6 +409,122 @@ hr {
     width: 100%;
 }
 
+/* Education Section */
+
+.education-container {
+    padding-bottom: 5rem;
+    margin-inline: auto;
+}
+
+.education-header {
+    text-align: center;
+    margin-inline: auto;
+}
+
+.education-header h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.education-roadmap {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.education {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-inline: auto;
+}
+
+.education-left {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+}
+
+.education-clr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #6d07f354;
+}
+
+.education-clr2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    background-color: var(--secondary-bgc-blue);
+    border-radius: 50%;
+}
+
+.education-clr2 i {
+    font-size: 1.8rem;
+    color: var(--secondary-text-color);
+}
+
+.education-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: star;
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.education-text h3 {
+    margin-left: .5rem;
+    font-size: 1.3rem;
+}
+
+.education-text h4 {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.edu-more-element {
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    flex-wrap: wrap;
+
+}
+
+.education-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    padding: 4px 12px;
+    font-size: .8rem;
+    border-radius: 50px;
+    background-color: rgba(255, 64, 0, 0.339);
+    color: var(--primary-text-color);
+}
+
+.education-details:nth-child(2) {
+    background: rgba(255, 255, 0, 0.339);
+    color: black;
+}
+
+.education-details:nth-child(3) {
+    background: rgba(0, 255, 94, 0.339);
+    color: black;
+}
+
+.education-details i {
+    margin-right: .5rem;
+}
+
+
 /* Footer Section */
 
 .footer-container {
@@ -476,7 +592,7 @@ hr {
 .social-icons {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     align-items: center;
     min-width: 30%;
     height: 50px;
@@ -511,18 +627,24 @@ hr {
     color: var(--secondary-bgc-blue);
 }
 
+.icon-i:hover {
+    border-color: var(--secondary-bgc-blue);
+}
+
 #footer-tt {
     text-align: center;
     font-family: Dosis;
     font-weight: 700;
     font-size: 1.8rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     color: var(--secondary-text-color);
 }
 
 .footer-div h4 {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     color: var(--third-text-color);
 }
 
@@ -530,6 +652,7 @@ hr {
     text-align: center;
     margin-top: 1.5rem;
     font-size: 1rem;
+    margin-bottom: 1rem;
     color: var(--secondary-text-color);
     color: yellow;
 }
