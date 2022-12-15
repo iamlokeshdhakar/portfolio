@@ -98,7 +98,7 @@ ul {
 
 /* Navbaar */
 
-.menu-responsive {
+#open-navbar {
     display: none;
 }
 
@@ -126,11 +126,13 @@ ul {
     font-weight: 900;
     font-size: 1.5rem;
 }
-.responsive-navbar{
+
+.responsive-navbar {
     display: none;
 }
-.res-nav{
-  display: none;
+
+.res-nav {
+    display: none;
 }
 
 
@@ -499,7 +501,8 @@ hr {
     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
     margin: 5px;
 }
-.icon-i i{
+
+.icon-i i {
     color: rgb(37, 37, 37);
 }
 
@@ -523,10 +526,10 @@ hr {
     color: var(--third-text-color);
 }
 
-#mail-show{
+#mail-show {
     text-align: center;
     margin-top: 1.5rem;
     font-size: 1rem;
     color: var(--secondary-text-color);
-    color: yellow; 
+    color: yellow;
 }
