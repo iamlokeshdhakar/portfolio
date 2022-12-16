@@ -31,6 +31,10 @@
     .skills-card {
         width: 180px;
     }
+    .education:nth-child(3){
+        margin-left: 0vw;
+    }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -118,6 +122,17 @@
         color: var(--secondary-bgc-color);
     }
     .education{
-        width: 90%;
+        justify-content: center;
+        align-self: center;
+    }
+    .education:nth-child(2){
+        align-self: center;
+
+    }
+    .education:nth-child(3){
+        align-self: center;
+    }
+    .education-roadmap{
+        max-width: 100%;
     }
 }

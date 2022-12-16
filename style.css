@@ -413,12 +413,14 @@ hr {
 
 .education-container {
     padding-bottom: 5rem;
+    margin-bottom: 5rem;
     margin-inline: auto;
 }
 
 .education-header {
-    text-align: center;
     margin-inline: auto;
+    text-align: center;
+    max-width: 80%;
 }
 
 .education-header h2 {
@@ -427,16 +429,25 @@ hr {
 }
 
 .education-roadmap {
-    margin-top: 4rem;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 80%;
+    margin-inline: auto;
+    margin-bottom: 4rem;
 }
 
 .education {
-    width: 40%;
     display: flex;
+    width: fit-content;
     align-items: center;
-    margin-top: 3rem;
-    margin-inline: auto;
+    margin-top: 5rem;
+}
+.education:nth-child(2){
+    align-self: center;
+}
+.education:nth-child(3){
+    align-self: flex-end;
 }
 
 .education-left {
@@ -453,8 +464,9 @@ hr {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #6d07f354;
+    background-color: #6d07f347;
 }
+
 
 .education-clr2 {
     display: flex;
