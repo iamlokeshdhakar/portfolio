@@ -34,6 +34,10 @@
     .education:nth-child(3){
         margin-left: 0vw;
     }
+    .main-image-circle{
+        width: 260px;
+        height: 260px;
+    }
 
 }
 

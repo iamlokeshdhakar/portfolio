@@ -168,10 +168,20 @@ ul {
     margin-top: 4rem;
     margin-inline: auto;
 }
-
-.image-container img {
-    width: 18rem;
+.main-image-circle{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 280px;
+    height: 280px;
+    background-color: var(--secondary-bgc-blue);
     border-radius: 50%;
+}
+
+.main-image-circle img {
+    height: 100%;
+    object-fit: cover;
 }
 
 .main-media-links {
