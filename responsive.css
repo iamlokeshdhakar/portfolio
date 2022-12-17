@@ -128,6 +128,7 @@
     .education{
         justify-content: center;
         align-self: center;
+        width: 95%;
     }
     .education:nth-child(2){
         align-self: center;

@@ -449,7 +449,7 @@ hr {
 
 .education {
     display: flex;
-    width: fit-content;
+    width: 50%;
     align-items: center;
     margin-top: 5rem;
 }
@@ -461,6 +461,7 @@ hr {
 }
 
 .education-left {
+    min-width: 20%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -499,6 +500,7 @@ hr {
     justify-content: center;
     align-items: star;
     height: 100%;
+    width: 80%;
     margin-left: 1rem;
 }
 
