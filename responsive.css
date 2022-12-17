@@ -140,4 +140,39 @@
     .education-roadmap{
         max-width: 100%;
     }
+    #project-details{
+        margin-top: 0rem;
+    }
+    
+    .project-details-heading h2{
+        font-size: 2rem;
+    }
+    .project-details-heading p{
+        max-width: 100%;
+    }
+    .ss-project{
+        border-radius: 5px ;
+        border: 3px solid #6E07F3;
+        max-width: 90%;
+    }
+    #purpose-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #purpose-container p{
+        max-width: 95%;
+    }
+    #more-about-container{
+        flex-direction: column;
+        padding: 4rem 1rem;
+
+    }
+    .more-about-left{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .more-about-right{
+        width: 100%;
+        margin-top: 3rem;
+    }
 }

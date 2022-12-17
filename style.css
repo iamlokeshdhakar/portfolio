@@ -168,7 +168,8 @@ ul {
     margin-top: 4rem;
     margin-inline: auto;
 }
-.main-image-circle{
+
+.main-image-circle {
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -453,10 +454,12 @@ hr {
     align-items: center;
     margin-top: 5rem;
 }
-.education:nth-child(2){
+
+.education:nth-child(2) {
     align-self: center;
 }
-.education:nth-child(3){
+
+.education:nth-child(3) {
     align-self: flex-end;
 }
 
@@ -679,4 +682,176 @@ hr {
     margin-bottom: 1rem;
     color: var(--secondary-text-color);
     color: yellow;
+}
+
+/* Projec Details Section */
+#project-details {
+    margin-top: 2rem;
+    padding: 0px;
+}
+
+.project-details-heading {
+    margin-top: 3rem;
+    padding: 0px 2rem;
+}
+
+.project-details-heading h2 {
+    font-family: Dosis;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.project-details-heading p {
+    margin-top: 1rem;
+    max-width: 60%;
+}
+
+#tech-stack {
+    margin-top: 1.3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#tech-stack span {
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-bgc-blue);
+    font-size: .8rem;
+    font-family: Dosis;
+    font-weight: 600;
+}
+
+#tech-stack span:nth-child(1) {
+    background-color: transparent;
+    color: var(--primary-text-color);
+    font-size: 1.2rem;
+    font-family: PS;
+    font-weight: 600;
+    margin-left: 0px;
+}
+
+#tech-stack span:nth-child(2) {
+    background-color: rgba(189, 144, 234, 0.609);
+    color: rgb(0, 0, 0);
+}
+
+#tech-stack span:nth-child(3) {
+    background-color: rgba(234, 144, 144, 0.609);
+    color: rgb(0, 0, 0);
+}
+
+#tech-stack span:nth-child(4) {
+    background-color: rgba(144, 188, 234, 0.609);
+    color: rgb(0, 0, 0);
+}
+
+#tech-stack span:nth-child(5) {
+    background-color: rgba(234, 188, 144, 0.609);
+    color: rgb(0, 0, 0);
+}
+
+#tech-stack span:nth-child(6) {
+    background-color: rgba(234, 233, 144, 0.609);
+    color: rgb(0, 0, 0);
+}
+
+#tech-stack span:nth-child(7) {
+    background-color: rgba(153, 234, 144, 0.609);
+    color: rgb(0, 0, 0);
+}
+
+.project-details-heading h3 {
+    padding-left: 10px;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.project-details-heading h3 span{
+    color: #6E07F3;
+}
+
+/* Screenshort Sections */
+
+#ss-container{
+    margin-top: 3rem;    
+}
+.ss-project{
+    margin: auto;
+    margin-top: 4rem;
+    border-radius: 5px ;
+    overflow: hidden;
+    border: 5px solid #6E07F3;
+    max-width: 80%;
+}
+.ss-project img{
+    width: 100%;
+    border-radius: 3px;
+    margin-inline: auto;
+}
+
+/* Purpose */
+
+#purpose-container{
+    text-align: center;
+    color: var(--secondary-text-color);
+    max-width: 100%;
+    width: 100%;
+    margin: 5rem 0rem;
+    padding: 6rem 0rem;
+    background: var(--secondary-bgc-blue);
+}
+
+#purpose-container h2{
+    font-size: 2rem;
+    font-family: Dosis;
+    font-weight: 700;
+}
+#purpose-container p{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 50%;
+    font-size: 1.2rem;
+}
+
+
+/* More About Container */
+
+#more-about-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem 0rem;
+    margin-inline: auto;
+    padding: 5rem 5rem;
+    margin-bottom: 7rem;
+}
+.more-about-left{
+    width: 40%;
+    padding: 1rem;
+}
+.more-about-left p{
+    font-size: 1.1rem;
+}
+
+.more-about-left h2{
+    font-family: Dosis;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.more-about-right p{
+    font-size: 1.1rem;
+}
+
+.more-about-right{
+    width: 40%;
+    padding: 1rem;
+}
+.more-about-right h2{
+    font-family: Dosis;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
