@@ -21,8 +21,10 @@
             <div class="nav-items">
                 <ul>
                     <li><a class="hover" href="https://lokeshdhakar97.github.io/My-Portfolio/">Home</a></li>
-                    <li><a class="hover " href="https://lokeshdhakar97.github.io/My-Portfolio/#skill-section-show">Skills</a></li>
-                    <li><a class="hover " href="https://lokeshdhakar97.github.io/My-Portfolio/#project-section-show">Projects</a></li>
+                    <li><a class="hover "
+                            href="https://lokeshdhakar97.github.io/My-Portfolio/#skill-section-show">Skills</a></li>
+                    <li><a class="hover "
+                            href="https://lokeshdhakar97.github.io/My-Portfolio/#project-section-show">Projects</a></li>
                     <li><a class="primary-btn " href="./assests/Lokesh-updated.pdf" download target="_blank">Download
                             CV</a></li>
                     <li><a class="secondary-btn" href="https://github.com/lokeshdhakar97" target="_blank"> <i
@@ -36,8 +38,11 @@
                     <i id="cross-nav" class="fa-sharp fa-solid fa-xmark"></i>
                     <ul>
                         <li><a class="hover" href="https://lokeshdhakar97.github.io/My-Portfolio/">Home</a></li>
-                        <li><a class="hover " href="https://lokeshdhakar97.github.io/My-Portfolio/#skill-section-show">Skills</a></li>
-                        <li><a class="hover " href="https://lokeshdhakar97.github.io/My-Portfolio/#project-section-show">Projects</a></li>
+                        <li><a class="hover "
+                                href="https://lokeshdhakar97.github.io/My-Portfolio/#skill-section-show">Skills</a></li>
+                        <li><a class="hover "
+                                href="https://lokeshdhakar97.github.io/My-Portfolio/#project-section-show">Projects</a>
+                        </li>
                         <li><a class="secondary-btn" href="https://github.com/lokeshdhakar97" target="_blank"> <i
                                     class="fa-brands fa-github btn-icon"></i> GitHub</a></li>
                         <li><a class="primary-btn " href="https://wa.link/7qavf7" download target="_blank">Say Hello
@@ -86,9 +91,7 @@
     <section>
         <div class="container" id="purpose-container">
             <h2>Project Purpose and Goal</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quas eaque eos dicta architecto tempore
-                nulla, ipsam minus harum? Repudiandae nesciunt ipsum architecto est quaerat possimus corrupti, minus
-                alias ad dicta earum harum, magnam suscipit accusantium nihil, dolorum aspernatur autem.</p>
+            <p>The purpose of project management is to plan and manage a project to successfully complete its listed goals and deliverables. Implements the features of task assignments, scheduled meetings, task boards, chatting, voice updates, etc. Created the project with excellent design for a better user experience. I am still working on it. MVP (Minimum Viable Product) version is ready.</p>
         </div>
     </section>
 
@@ -112,7 +115,8 @@
     <section>
         <div class="container" id="purpose-container">
             <h2>Web Stack and Explanation</h2>
-            <p>In this project I used HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB. The reason use nodejs for backend is to utilize the same language both on the frontend and backend.</p>
+            <p>In this project I used HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB. The reason use nodejs for
+                backend is to utilize the same language both on the frontend and backend. I used MongoDB because of its power of Document-Oriented Databases. MongoDB is built to scale up quickly and supports all the main features of modern databases.</p>
         </div>
     </section>
 
@@ -192,6 +196,9 @@
 
     <script src="https://kit.fontawesome.com/6d248672b6.js" crossorigin="anonymous"></script>
     <script>
+        window.onload = (event) => {
+            console.log("page is fully loaded");
+        };
         let openNav = document.querySelector('#open-navbar');
         let closeNav = document.querySelector('#cross-nav');
         let responsiveNav = document.querySelector('.responsive-navbar');
@@ -202,6 +209,7 @@
             responsiveNav.style.right = "-100%"
         })
     </script>
+
 </body>
 
 </html>
