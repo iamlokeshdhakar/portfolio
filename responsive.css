@@ -129,6 +129,7 @@
         justify-content: center;
         align-self: center;
         width: 95%;
+        margin-left: 0rem;
     }
     .education:nth-child(2){
         align-self: center;

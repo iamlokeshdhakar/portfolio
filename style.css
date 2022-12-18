@@ -442,10 +442,12 @@ hr {
 .education-roadmap {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    align-items: center;
     max-width: 80%;
     margin-inline: auto;
     margin-bottom: 4rem;
+    justify-content: center;
 }
 
 .education {
@@ -453,15 +455,16 @@ hr {
     width: 50%;
     align-items: center;
     margin-top: 5rem;
+    margin-left: 40px;
 }
 
-.education:nth-child(2) {
+/* .education:nth-child(2) {
     align-self: center;
 }
 
 .education:nth-child(3) {
     align-self: flex-end;
-}
+} */
 
 .education-left {
     min-width: 20%;
