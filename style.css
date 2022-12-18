@@ -778,6 +778,14 @@ hr {
 #ss-container{
     margin-top: 3rem;    
 }
+#ss-container h2{
+    margin: auto;
+    text-align: center;
+    font-family: Dosis;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
 .ss-project{
     margin: auto;
     margin-top: 4rem;
@@ -824,25 +832,18 @@ hr {
     justify-content: space-around;
     margin: 5rem 0rem;
     margin-inline: auto;
-    padding: 5rem 5rem;
-    margin-bottom: 7rem;
+    padding: 5rem 2rem;
+    margin-bottom: 8rem;
 }
 .more-about-left{
     width: 40%;
     padding: 1rem;
 }
-.more-about-left p{
-    font-size: 1.1rem;
-}
-
 .more-about-left h2{
     font-family: Dosis;
     font-weight: 700;
     font-size: 1.6rem;
     margin-bottom: 1rem;
-}
-.more-about-right p{
-    font-size: 1.1rem;
 }
 
 .more-about-right{
@@ -855,3 +856,4 @@ hr {
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
+
