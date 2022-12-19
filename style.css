@@ -38,6 +38,7 @@ body {
     width: 100%;
     min-height: 100%;
     background: var(--primary-bgc-linear);
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -928,4 +929,3 @@ hr {
     color: var(--primary-text-color);
 
 }
-
