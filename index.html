@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./assests/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assests/favicon/favicon-16x16.png">
     <link rel="manifest" href="./assests/favicon/site.webmanifest">
@@ -29,9 +30,16 @@
                     <li><a class="secondary-btn" href="https://github.com/lokeshdhakar97" target="_blank"> <i
                                 class="fa-brands fa-github btn-icon"></i> GitHub</a></li>
                 </ul>
+                <div class="toggle"><i id="moon" class="ri-moon-clear-fill"></i>
+                    <i id="sun" class="ri-sun-fill"></i>
+                </div>
             </div>
-            <i id="open-navbar" class="fa-solid fa-bars"></i>
-
+            <div class="res-wrapper">
+                <div class="toggle"><i id="moon" class="ri-moon-clear-fill"></i>
+                    <i id="sun" class="ri-sun-fill"></i>
+                </div>
+                <i id="open-navbar" class="fa-solid fa-bars"></i>
+            </div>
             <div class="responsive-navbar">
                 <div class="res-nav nav-items">
                     <i id="cross-nav" class="fa-sharp fa-solid fa-xmark"></i>
@@ -46,6 +54,9 @@
                         <li><a class="primary-btn " href="./assests/Lokesh-updated.pdf" download
                                 target="_blank">Download CV</a></li>
                     </ul>
+                    <div class="toggle"><i id="moon" class="ri-moon-clear-fill"></i>
+                        <i id="sun" class="ri-sun-fill"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -459,17 +470,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/6d248672b6.js" crossorigin="anonymous"></script>
-    <script>
-        let openNav = document.querySelector('#open-navbar');
-        let closeNav = document.querySelector('#cross-nav');
-        let responsiveNav = document.querySelector('.responsive-navbar');
-        openNav.addEventListener('click', () => {
-            responsiveNav.style.right = "0%"
-        })
-        closeNav.addEventListener('click', () => {
-            responsiveNav.style.right = "-100%"
-        })
-    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

@@ -11,8 +11,18 @@
     --primary-text-color: black;
     --secondary-text-color: white;
     --third-text-color: whitesmoke;
-    --hover-text-color: #6E07F3;
-    --button-hover-color: #6E07F3
+    --exception:#6E07F3;
+    --hover-color: #6E07F3;
+}
+
+.dark-mode{
+    --primary-bgc-linear: linear-gradient(to right, #040405, #1e272a, #040405);
+    --primary-text-color: rgb(233, 233, 233);
+    --secondary-bgc-blue: #2b2b39;
+    --secondary-text-color: rgb(233, 233, 233);
+    --exception:rgb(233, 233, 233);
+    --hover-color: #6E07F3;
+
 }
 
 * {
@@ -26,7 +36,7 @@
 html,
 body {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     background: var(--primary-bgc-linear);
 }
 
@@ -64,15 +74,15 @@ ul {
     background-color: var(--secondary-bgc-blue);
     color: white !important;
     padding: 8px 20px;
-    border: 2px solid #6E07F3;
+    border: 2px solid var(--secondary-bgc-blue);
     border-radius: 4px;
 
 }
 
 .secondary-btn {
     padding: 8px 20px;
-    border: 2px solid #6E07F3;
-    color: var(--hover-text-color);
+    border: 2px solid var(--secondary-bgc-blue);
+    color: var(--exception);
     border-radius: 4px;
     font-size: 1rem;
 }
@@ -97,9 +107,39 @@ ul {
 /* Items Style */
 
 /* Navbaar */
+.toggle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-text-color);
+    width: 35px;
+    margin-left: 1rem;
+    height: 35px;
+    background-color: var(--secondary-bgc-blue);
+    border-radius: 50%;
+    cursor: pointer;
 
+}
+.toggle i{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+#sun{
+    display: none;
+}
+
+.res-wrapper{
+    display: none;
+}
 #open-navbar {
     display: none;
+    color: var(--primary-text-color);
+}
+#cross-nav{
+    color: var(--primary-text-color);
 }
 
 .nav-container {
@@ -107,6 +147,11 @@ ul {
     justify-content: space-between;
     align-items: center;
 
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-items>ul {
@@ -117,7 +162,7 @@ ul {
 }
 
 .hover:hover {
-    color: var(--hover-text-color);
+    color: #6E07F3;
     transition: all .2s ease-in-out;
 }
 
@@ -153,12 +198,14 @@ ul {
 .text-container h1 {
     font-size: 3rem;
     font-family: Dosis;
+    color: var(--primary-text-color);
     font-weight: 900;
 }
 
 .text-container h2 {
     font-weight: 500;
     margin-top: .3rem;
+    color: var(--primary-text-color);
 }
 
 .image-container {
@@ -202,7 +249,7 @@ ul {
 }
 
 .media-tag:hover {
-    color: var(--hover-text-color) !important;
+    color: var(--hover-color);
 }
 
 hr {
@@ -210,7 +257,7 @@ hr {
     height: 3px;
     border-radius: 20px;
     border: none;
-    background-color: black;
+    background-color: var(--primary-text-color);
 }
 
 /* About Me Section */
@@ -226,10 +273,13 @@ hr {
     font-family: Dosis;
     font-weight: 700;
     font-size: 2rem;
+    color: var(--primary-text-color);
 }
 
 .about-me-text p {
     line-height: 1.2rem;
+    color: var(--primary-text-color);
+
 }
 
 .about-me-container {
@@ -259,6 +309,8 @@ hr {
 .skill-text h2 {
     font-weight: 700;
     font-size: 2rem;
+    color: var(--secondary-text-color);
+
 }
 
 .skill-text p {
@@ -332,10 +384,14 @@ hr {
 .project-head h2 {
     font-weight: 700;
     font-size: 2rem;
+    color: var(--primary-text-color);
+
 }
 
 .project-head p {
     margin-top: 1rem;
+    color: var(--primary-text-color);
+
 }
 
 .projects-div {
@@ -374,10 +430,14 @@ hr {
     font-weight: 700;
     font-size: 1.5rem;
     margin-top: 1rem;
+    color: var(--primary-text-color);
+
 }
 
 .project-cnt p {
     margin-top: .8rem;
+    color: var(--primary-text-color);
+
 }
 
 .project-buttons {
@@ -437,12 +497,13 @@ hr {
 .education-header h2 {
     font-weight: 700;
     font-size: 2rem;
+    color: var(--primary-text-color);
+
 }
 
 .education-roadmap {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     align-items: center;
     max-width: 80%;
     margin-inline: auto;
@@ -457,14 +518,6 @@ hr {
     margin-top: 5rem;
     margin-left: 40px;
 }
-
-/* .education:nth-child(2) {
-    align-self: center;
-}
-
-.education:nth-child(3) {
-    align-self: flex-end;
-} */
 
 .education-left {
     min-width: 20%;
@@ -513,11 +566,15 @@ hr {
 .education-text h3 {
     margin-left: .5rem;
     font-size: 1.3rem;
+    color: var(--primary-text-color);
+
 }
 
 .education-text h4 {
     font-size: 1rem;
     margin-left: .5rem;
+    color: var(--primary-text-color);
+
 }
 
 .edu-more-element {
@@ -542,12 +599,12 @@ hr {
 
 .education-details:nth-child(2) {
     background: rgba(255, 255, 0, 0.339);
-    color: black;
+    color: var(--primary-text-color);
 }
 
 .education-details:nth-child(3) {
     background: rgba(0, 255, 94, 0.339);
-    color: black;
+    color: var(--primary-text-color);
 }
 
 .education-details i {
@@ -598,6 +655,8 @@ hr {
 .collab h3 {
     font-size: 1.8rem;
     font-weight: 600;
+    color: var(--secondary-text-color);
+
 }
 
 .collab a {
@@ -643,7 +702,7 @@ hr {
     background-color: var(--secondary-text-color);
     border-radius: 40px 20px 30px 10px;
     cursor: pointer;
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 1.5px solid var(--primary-text-color);
     transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
     margin: 5px;
 }
@@ -702,11 +761,15 @@ hr {
     font-family: Dosis;
     font-weight: 700;
     font-size: 2.5rem;
+    color: var(--primary-text-color);
+
 }
 
 .project-details-heading p {
     margin-top: 1rem;
     max-width: 60%;
+    color: var(--primary-text-color);
+
 }
 
 #tech-stack {
@@ -720,7 +783,7 @@ hr {
 #tech-stack span {
     padding: 5px 10px;
     border-radius: 50px;
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     background-color: var(--secondary-bgc-blue);
     font-size: .8rem;
     font-family: Dosis;
@@ -729,7 +792,6 @@ hr {
 
 #tech-stack span:nth-child(1) {
     background-color: transparent;
-    color: var(--primary-text-color);
     font-size: 1.2rem;
     font-family: PS;
     font-weight: 600;
@@ -738,38 +800,34 @@ hr {
 
 #tech-stack span:nth-child(2) {
     background-color: rgba(189, 144, 234, 0.609);
-    color: rgb(0, 0, 0);
 }
 
 #tech-stack span:nth-child(3) {
     background-color: rgba(234, 144, 144, 0.609);
-    color: rgb(0, 0, 0);
 }
 
 #tech-stack span:nth-child(4) {
     background-color: rgba(144, 188, 234, 0.609);
-    color: rgb(0, 0, 0);
 }
 
 #tech-stack span:nth-child(5) {
     background-color: rgba(234, 188, 144, 0.609);
-    color: rgb(0, 0, 0);
 }
 
 #tech-stack span:nth-child(6) {
     background-color: rgba(234, 233, 144, 0.609);
-    color: rgb(0, 0, 0);
 }
 
 #tech-stack span:nth-child(7) {
     background-color: rgba(153, 234, 144, 0.609);
-    color: rgb(0, 0, 0);
 }
 
 .project-details-heading h3 {
     padding-left: 10px;
     margin-top: 1rem;
     font-size: 1rem;
+    color: var(--primary-text-color);
+
 }
 
 .project-details-heading h3 span{
@@ -788,13 +846,15 @@ hr {
     font-weight: 700;
     font-size: 2rem;
     padding-bottom: 1rem;
+    color: var(--primary-text-color);
+
 }
 .ss-project{
     margin: auto;
     margin-top: 4rem;
     border-radius: 5px ;
     overflow: hidden;
-    border: 5px solid #6E07F3;
+    border: 5px solid var(--secondary-bgc-blue);
     max-width: 80%;
 }
 .ss-project img{
@@ -819,6 +879,8 @@ hr {
     font-size: 2rem;
     font-family: Dosis;
     font-weight: 700;
+    color: var(--secondary-text-color);
+
 }
 #purpose-container p{
     margin: auto;
@@ -842,11 +904,16 @@ hr {
     width: 40%;
     padding: 1rem;
 }
+.more-about-left, .more-about-right p{
+    color: var(--primary-text-color);
+}
 .more-about-left h2{
     font-family: Dosis;
     font-weight: 700;
     font-size: 1.6rem;
     margin-bottom: 1rem;
+    color: var(--primary-text-color);
+
 }
 
 .more-about-right{
@@ -858,5 +925,7 @@ hr {
     font-weight: 700;
     font-size: 1.6rem;
     margin-bottom: 1rem;
+    color: var(--primary-text-color);
+
 }
 
