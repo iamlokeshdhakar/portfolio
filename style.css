@@ -929,3 +929,15 @@ hr {
     color: var(--primary-text-color);
 
 }
+
+.project-detail-links{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    padding-left: .5rem;
+    margin-top: 1rem;
+}
+.pd-links{
+    margin-right: 1rem;
+    text-align: center;
+}
