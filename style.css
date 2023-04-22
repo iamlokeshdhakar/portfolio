@@ -218,9 +218,11 @@ ul {
   height: 280px;
   background-color: var(--secondary-bgc-blue);
   border-radius: 50%;
+  border: 2px solid var(--secondary-bgc-blue);
 }
 
 .main-image-circle img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -275,7 +277,6 @@ hr {
 
 .about-me-container {
   margin-top: 1rem;
-  padding: 8rem 0px;
 }
 
 /* Skill Section */
@@ -908,4 +909,31 @@ hr {
 .pd-links {
   margin-right: 1rem;
   text-align: center;
+}
+#es-heading{
+  font-family: PS;
+}
+#es-company{
+  font-family: PS;
+  font-size: 1.25rem;
+}
+#es-cc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+#es-cc h3{
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#es-list{
+  padding-top: 10px;
+  margin-left: 20px;
+  list-style: disc;
+}
+#es-list li{
+  margin-top: 8px;
 }
