@@ -193,6 +193,11 @@
         display: flex;
         align-items: center;
     }
-  
+    #es-cc{
+     display: block;
+    }
+    #es-company{
+        font-size: 1rem;
+    }
 
 }
