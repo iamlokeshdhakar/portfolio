@@ -398,14 +398,34 @@ hr {
 }
 
 .project-img {
+  position: relative;
   width: 70%;
   margin-inline: auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.ongoing-project {
+  position: absolute;
+  background-color: rgb(255, 225, 0);
+  right: 0px;
+  top:0px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 50%;
+  padding: 0px 5px;
 }
 
 .project-img img {
   width: 100%;
   border: 2px solid var(--secondary-bgc-blue);
   border-radius: 8px;
+  overflow: hidden;
+
 }
 
 .project-cnt {
@@ -794,7 +814,16 @@ hr {
 }
 
 #tech-stack span:nth-child(7) {
-  background-color: rgba(153, 234, 144, 0.609);
+  background-color: rgba(234, 144, 216, 0.609);
+}
+#tech-stack span:nth-child(8) {
+  background-color: rgba(144, 210, 234, 0.609);
+}
+#tech-stack span:nth-child(9) {
+  background-color: rgba(180, 144, 234, 0.609);
+}
+#tech-stack span:nth-child(10) {
+  background-color: rgba(234, 228, 144, 0.609);
 }
 
 .project-details-heading h3 {
@@ -910,30 +939,30 @@ hr {
   margin-right: 1rem;
   text-align: center;
 }
-#es-heading{
+#es-heading {
   font-family: PS;
 }
-#es-company{
+#es-company {
   font-family: PS;
   font-size: 1.25rem;
 }
-#es-cc{
+#es-cc {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-right: 50px;
   padding-bottom: 10px;
 }
-#es-cc h3{
+#es-cc h3 {
   font-weight: 600;
   margin-top: 20px;
 }
 
-#es-list{
+#es-list {
   padding-top: 10px;
   margin-left: 20px;
   list-style: disc;
 }
-#es-list li{
+#es-list li {
   margin-top: 8px;
 }
