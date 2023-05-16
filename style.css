@@ -945,6 +945,7 @@ hr {
 #es-company {
   font-family: PS;
   font-size: 1.25rem;
+  color: var(--primary-text-color);
 }
 #es-cc {
   display: flex;
@@ -962,6 +963,7 @@ hr {
   padding-top: 10px;
   margin-left: 20px;
   list-style: disc;
+  color: var(--primary-text-color);
 }
 #es-list li {
   margin-top: 8px;
