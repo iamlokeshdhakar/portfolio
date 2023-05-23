@@ -4,7 +4,7 @@
 
 <p id="description">This is my portfolio website.</p>
 
-<h2>🚀 Demo</h2>
+<h2>🚀 Live Link:</h2>
 
 [https://lokeshdhakar97.github.io/My-Portfolio/](https://lokeshdhakar97.github.io/My-Portfolio/)
 
