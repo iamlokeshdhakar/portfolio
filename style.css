@@ -219,12 +219,14 @@ ul {
   background-color: var(--secondary-bgc-blue);
   border-radius: 50%;
   border: 2px solid var(--secondary-bgc-blue);
+
 }
 
 .main-image-circle img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  top: 0;
+  object-fit: fill;
 }
 
 .main-media-links {
@@ -408,7 +410,7 @@ hr {
   position: absolute;
   background-color: rgb(255, 225, 0);
   right: 0px;
-  top:0px;
+  top: 0px;
   width: 60px;
   height: 60px;
   text-align: center;
@@ -425,7 +427,6 @@ hr {
   border: 2px solid var(--secondary-bgc-blue);
   border-radius: 8px;
   overflow: hidden;
-
 }
 
 .project-cnt {
