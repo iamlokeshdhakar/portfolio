@@ -6,21 +6,21 @@
 }
 
 :root {
+  --primary-bgc-linear: linear-gradient(to right, #040405, #1e272a, #040405);
+  --primary-text-color: rgb(233, 233, 233);
+  --secondary-bgc-blue: #2b2b39;
+  --secondary-text-color: rgb(233, 233, 233);
+  --exception: rgb(233, 233, 233);
+  --hover-color: #6e07f3;
+}
+
+.dark-mode {
   --primary-bgc-linear: linear-gradient(to right, #acdaf6, #d6edf3, #e2edf4);
   --secondary-bgc-blue: #6e07f3;
   --primary-text-color: black;
   --secondary-text-color: white;
   --third-text-color: whitesmoke;
   --exception: #6e07f3;
-  --hover-color: #6e07f3;
-}
-
-.dark-mode {
-  --primary-bgc-linear: linear-gradient(to right, #040405, #1e272a, #040405);
-  --primary-text-color: rgb(233, 233, 233);
-  --secondary-bgc-blue: #2b2b39;
-  --secondary-text-color: rgb(233, 233, 233);
-  --exception: rgb(233, 233, 233);
   --hover-color: #6e07f3;
 }
 
@@ -629,6 +629,10 @@ hr {
   padding: 2px;
   position: relative;
   width: 100%;
+}
+
+#abcd{
+   color: white;
 }
 
 .collab-div {
