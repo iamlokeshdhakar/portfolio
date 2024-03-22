@@ -8,7 +8,7 @@
 :root {
   --primary-bgc-linear: linear-gradient(to right, #040405, #1e272a, #040405);
   --primary-text-color: rgb(233, 233, 233);
-  --secondary-bgc-blue: #2b2b39;
+  --secondary-bgc-blue: #6e07f3;
   --secondary-text-color: rgb(233, 233, 233);
   --exception: rgb(233, 233, 233);
   --hover-color: #6e07f3;
@@ -219,7 +219,6 @@ ul {
   background-color: var(--secondary-bgc-blue);
   border-radius: 50%;
   border: 2px solid var(--secondary-bgc-blue);
-
 }
 
 .main-image-circle img {
@@ -631,8 +630,8 @@ hr {
   width: 100%;
 }
 
-#abcd{
-   color: white;
+#abcd {
+  color: white;
 }
 
 .collab-div {
@@ -972,4 +971,86 @@ hr {
 }
 #es-list li {
   margin-top: 8px;
+}
+
+#modern-exc-box {
+  width: 100%;
+  padding: 0px 30px;
+  margin-bottom: 80px;
+}
+#emp-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  min-height: 200px;
+}
+#emp-logo {
+  width: 150px;
+  height: 150px;
+  background-color: #6e07f3;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--secondary-bgc-blue);
+}
+#emp-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#emp-cnt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+  color: var(--primary-text-color);
+}
+#emp-cnt h3 {
+  color: var(--secondary-bgc-blue);
+  margin-bottom: 10px;
+}
+#emp-cnt p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: rgb(231, 226, 100);
+  width: fit-content;
+  border-radius: 5px;
+  color: black;
+}
+#emp-skills {
+  width: fit-content;
+  min-height: 60px;
+  background-color: var(--secondary-bgc-blue);
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  margin-top: 10px;
+}
+#emp-skills-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+  border-radius: 5px;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+#emp-skills-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#emp-skills-list p {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
 }
