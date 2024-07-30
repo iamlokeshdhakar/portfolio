@@ -6,7 +6,7 @@
 
 <h2>🚀 Live Link:</h2>
 
-[https://iamlokeshdhakar.github.io/My-Portfolio/](https://iamlokeshdhakar.github.io/My-Portfolio/)
+[https://iamlokeshdhakar.github.io/portfolio/](https://iamlokeshdhakar.github.io/portfolio/)
 
   
   
