@@ -8,20 +8,20 @@
 :root {
   --primary-bgc-linear: linear-gradient(to right, #040405, #1e272a, #040405);
   --primary-text-color: rgb(233, 233, 233);
-  --secondary-bgc-blue: #6e07f3;
+  --secondary-bgc-blue: #0077b6;
   --secondary-text-color: rgb(233, 233, 233);
   --exception: rgb(233, 233, 233);
-  --hover-color: #6e07f3;
+  --hover-color: #0077b6;
 }
 
 .dark-mode {
   --primary-bgc-linear: linear-gradient(to right, #acdaf6, #d6edf3, #e2edf4);
-  --secondary-bgc-blue: #6e07f3;
+  --secondary-bgc-blue: #0077b6;
   --primary-text-color: black;
   --secondary-text-color: white;
   --third-text-color: whitesmoke;
-  --exception: #6e07f3;
-  --hover-color: #6e07f3;
+  --exception: #0077b6;
+  --hover-color: #0077b6;
 }
 
 * {
@@ -157,7 +157,7 @@ ul {
 }
 
 .hover:hover {
-  color: #6e07f3;
+  color: var(--hover-color);
   transition: all 0.2s ease-in-out;
 }
 
@@ -539,7 +539,7 @@ hr {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #6d07f347;
+  background-color: #0076b670;
 }
 
 .education-clr2 {
@@ -838,7 +838,7 @@ hr {
 }
 
 .project-details-heading h3 span {
-  color: #6e07f3;
+  color: var(--hover-color);
 }
 
 /* Screenshort Sections */
@@ -992,7 +992,7 @@ hr {
 #emp-logo {
   width: 150px;
   height: 150px;
-  background-color: #6e07f3;
+  background-color: var(--hover-color);
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid var(--secondary-bgc-blue);
