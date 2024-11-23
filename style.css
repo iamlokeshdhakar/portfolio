@@ -8,20 +8,20 @@
 :root {
   --primary-bgc-linear: linear-gradient(to right, #040405, #1e272a, #040405);
   --primary-text-color: rgb(233, 233, 233);
-  --secondary-bgc-blue: #0077b6;
+  --secondary-bgc-blue: #6a60f8;
   --secondary-text-color: rgb(233, 233, 233);
   --exception: rgb(233, 233, 233);
-  --hover-color: #0077b6;
+  --hover-color: #6a60f877;
 }
 
 .dark-mode {
   --primary-bgc-linear: linear-gradient(to right, #acdaf6, #d6edf3, #e2edf4);
-  --secondary-bgc-blue: #0077b6;
+  --secondary-bgc-blue: #6a60f8;
   --primary-text-color: black;
   --secondary-text-color: white;
   --third-text-color: whitesmoke;
-  --exception: #0077b6;
-  --hover-color: #0077b6;
+  --exception: #6a60f8;
+  --hover-color: #6a60f8;
 }
 
 * {
