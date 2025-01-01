@@ -8,7 +8,7 @@
 :root {
   --primary-bgc-linear: linear-gradient(to right, #040405, #1e272a, #040405);
   --primary-text-color: rgb(233, 233, 233);
-  --secondary-bgc-blue: #6a60f8;
+  --secondary-bgc-blue: #1b3bc7;
   --secondary-text-color: rgb(233, 233, 233);
   --exception: rgb(233, 233, 233);
   --hover-color: #6a60f877;
@@ -16,12 +16,12 @@
 
 .dark-mode {
   --primary-bgc-linear: linear-gradient(to right, #acdaf6, #d6edf3, #e2edf4);
-  --secondary-bgc-blue: #6a60f8;
+  --secondary-bgc-blue: #1b34a3;
   --primary-text-color: black;
   --secondary-text-color: white;
   --third-text-color: whitesmoke;
-  --exception: #6a60f8;
-  --hover-color: #6a60f8;
+  --exception: #1b34a3;
+  --hover-color: #1b34a3;
 }
 
 * {
@@ -156,10 +156,6 @@ ul {
   gap: 25px;
 }
 
-.hover:hover {
-  color: var(--hover-color);
-  transition: all 0.2s ease-in-out;
-}
 
 .logo {
   font-family: Dosis;
@@ -242,10 +238,6 @@ ul {
 .media-tag {
   padding: 8px;
   font-size: 1.3rem;
-}
-
-.media-tag:hover {
-  color: var(--hover-color);
 }
 
 hr {
@@ -713,13 +705,7 @@ hr {
   color: rgb(37, 37, 37);
 }
 
-.icon-i i:hover {
-  color: var(--secondary-bgc-blue);
-}
 
-.icon-i:hover {
-  border-color: var(--secondary-bgc-blue);
-}
 
 #footer-tt {
   text-align: center;
@@ -1010,7 +996,7 @@ hr {
   color: var(--primary-text-color);
 }
 #emp-cnt h3 {
-  color: var(--secondary-bgc-blue);
+  color: var(--primary-text-color);
   margin-bottom: 10px;
 }
 #emp-cnt p {
